@@ -1,0 +1,78 @@
+[Final Build Gameplay]
+
+<Embedded youtube video>
+
+This video is a 14 minute long walkthrough for the entire game, playing as the Netrunner character.
+
+​
+
+The current build of the game has:
+
+​
+
+- 8 playable characters with their own unique starting weapon and ability
+
+- 20 different weapons, each having unique reloading and shooting animations
+
+- 3 completed levels with bosses at the end of each level
+
+- 2 types of shops: one for health and weapons, and the other for stat upgrades
+
+This game was made by me and my friend Kyle Jackson for a few competitions. However, I'm responsible for most of what is in the game. I'm responsible for the entirety of the game's programming, which was done in Unreal Engine's blueprint system. I'm also responsible for most of art and animations in the game. The only things that I did not have a hand in were the level layouts and the music that was made by Absolute Valentine.
+
+<Button linked to the download>
+
+[Demo Trailer]
+
+<Embedded youtube video>
+
+This trailer shows an earlier version of the game that had much less content than what is in the game currently. 
+
+​
+
+Pixel Buster is an arcade rogue-like shoot'em up with a cyberpunk twist.
+
+​
+
+Developed By - Kyle Jackson & Mikey Bess
+
+
+2018 Congressional App Winner
+
+(Very old version of the game)
+
+https://www.congressionalappchallenge.us/2018-winners/#Texas
+
+<Image>
+
+Art/Animations
+
+Weapons
+
+<Image><Image> (long, side by side)
+
+Level Tilesets
+
+<6 small images in a grid>
+
+Programming
+
+Everything in this game was programmed by me from scratch using Unreal Engine's Blueprint system.
+
+The most interesting game mechanics to program were the door and room systems that controlled the flow of the game, the enemies, and the gun/bullet system.
+
+The gun system was some of the most complex code in the game, but once the base code was written, I was able to use that code to quicky iterate new weapon designs and easily change values while playtesting.
+
+<Image>
+
+This is the main blueprint for the player's character.
+
+Most of this is just set up for other functions and a way to connect what's happening in the game to the character.
+
+<Image>
+
+This is a blueprint for one of the rooms in the game.
+
+Collision boxes and variables are used to determine when the character is in the room, then the doors close and the enemies are enabled.
+
+Once the enemies are killed (drops are based on luck and dealt with in the enemy blueprints), the doors will unlock and allow the player to proceed.

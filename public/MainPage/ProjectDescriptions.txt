@@ -1,0 +1,16 @@
+Tobor Quest:
+Tobor Quest is a project from the Game Lab course at the University of Texas at Dallas made by a team of 40+ people. I was the Level Designer responsible for levels one, two, four, and the tutorial.
+
+Skele-Cat:
+- Solo Jam -
+You play as a cat that explodes and uses blood to create platforms.
+
+Bit-Depth:
+- Solo Jam -
+Arcade game with a combo meter tied to the bit-depth of the visuals
+
+Tank Game: 
+A scripted boss encounter where you play as a dodge rolling tank. I made this to learn about VFX and shaders.
+
+Pixel-Buster: 
+A cyberpunk arcade rogue-like shoot'em up. Variety of characters, abilities, and weapons to use

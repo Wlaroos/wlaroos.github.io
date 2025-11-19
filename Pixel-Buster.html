@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pixel Buster — Final Build</title>
+    <style>
+      body{font-family:Arial,Helvetica,sans-serif;max-width:1000px;margin:28px auto;padding:0 20px;line-height:1.5;color:#111}
+      header h1{margin:0 0 6px 0}
+      .meta{color:#555;margin-bottom:14px}
+      h2{margin-top:28px}
+      .video{margin:12px 0}
+      .btn-download{display:inline-block;padding:10px 16px;background:#0b6cff;color:#fff;text-decoration:none;border-radius:6px}
+      ul.features{margin:12px 0 0 20px}
+      .images{display:flex;flex-direction:column;gap:10px;margin:12px 0}
+      .side-by-side{display:flex;gap:10px;flex-wrap:wrap}
+      .grid-tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;max-width:640px}
+      .placeholder{background:#eee;border:1px dashed #ccc;padding:24px;text-align:center;color:#666}
+      .credit{margin-top:8px;color:#333}
+      .back{margin-top:24px}
+      @media(max-width:640px){.grid-tiles{grid-template-columns:repeat(2,1fr)}}
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Pixel Buster</h1>
+      <p class="meta">Pixel Buster is an arcade rogue-like shoot'em up with a cyberpunk twist. Developed by Kyle Jackson &amp; Mikey Bess.</p>
+    </header>
+
+    <section>
+      <h2>Final Build Gameplay</h2>
+      <div class="video">
+        <!-- Replace VIDEO_ID with actual YouTube id -->
+        <iframe width="900" height="506" src="https://www.youtube.com/embed/hcR-7mCPTVE" title="Final Build Gameplay" frameborder="0" allowfullscreen style="max-width:100%"></iframe>
+      </div>
+      <p>This video is a 14 minute long walkthrough for the entire game, playing as the Netrunner character.</p>
+    </section>
+
+    <section>
+      <h2>Current Build</h2>
+      <p>The current build of the game has:</p>
+      <ul class="features">
+        <li>8 playable characters with their own unique starting weapon and ability</li>
+        <li>20 different weapons, each having unique reloading and shooting animations</li>
+        <li>3 completed levels with bosses at the end of each level</li>
+        <li>2 types of shops: one for health and weapons, and the other for stat upgrades</li>
+      </ul>
+
+      <p class="credit">This game was made by me and my friend Kyle Jackson for a few competitions. I am responsible for the majority of the game's content: the entirety of the programming (Unreal Engine Blueprints), and most of the art and animations. Level layouts and the music (by Absolute Valentine) were handled by others.</p>
+
+      <p><a class="btn-download" href="#">Download build (placeholder)</a></p>
+    </section>
+
+    <section>
+      <h2>Demo Trailer</h2>
+      <div class="video">
+        <!-- Replace TRAILER_ID with actual YouTube id -->
+        <iframe width="900" height="506" src="https://www.youtube.com/embed/erbq-Bi95uA" title="Demo Trailer" frameborder="0" allowfullscreen style="max-width:100%"></iframe>
+      </div>
+      <p>This trailer shows an earlier version of the game that had much less content than the current build.</p>
+    </section>
+
+    <section>
+      <h2>Honors and Links</h2>
+      <p>Developed By — Kyle Jackson &amp; Mikey Bess</p>
+      <p><strong>2018 Congressional App Winner</strong> (very old version): <a href="https://www.congressionalappchallenge.us/2018-winners/#Texas" target="_blank">congressionalappchallenge.us/2018-winners/#Texas</a></p>
+    </section>
+
+        <section>
+      <h2>Art / Animations</h2>
+      <div class="images">
+        <img src="/PixelBuster/Portfolio%20character%20thing.png" alt="Portfolio character" style="max-width:100%;height:auto;display:block">
+      </div>
+
+      <h3>Weapons</h3>
+      <div class="side-by-side">
+        <img src="/PixelBuster/_MasterWeapons.png" alt="Master Weapons" style="flex:1;max-width:100%;height:auto">
+        <img src="/PixelBuster/_MasterWeapon2s.png" alt="Master Weapon 2s" style="flex:1;max-width:100%;height:auto">
+      </div>
+
+      <h3>Level Tilesets</h3>
+      <div class="grid-tiles">
+        <img src="/PixelBuster/PixelBusterGif.gif" alt="Pixel Buster gif" style="width:100%;height:auto;object-fit:cover">
+        <img src="/PixelBuster/CharacterBP.PNG" alt="Character blueprint" style="width:100%;height:auto;object-fit:cover">
+        <img src="/PixelBuster/RoomBP.PNG" alt="Room blueprint" style="width:100%;height:auto;object-fit:cover">
+        <img src="/PixelBuster/Portfolio%20character%20thing.png" alt="Tileset 4" style="width:100%;height:auto;object-fit:cover">
+        <img src="/PixelBuster/_MasterWeapons.png" alt="Tileset 5" style="width:100%;height:auto;object-fit:cover">
+        <img src="/PixelBuster/_MasterWeapon2s.png" alt="Tileset 6" style="width:100%;height:auto;object-fit:cover">
+      </div>
+    </section>
+
+    <section>
+      <h2>Programming</h2>
+      <p>Everything in this game was programmed by me from scratch using Unreal Engine's Blueprint system.</p>
+
+      <p>The most interesting game mechanics to program were the door and room systems that controlled the flow of the game, the enemies, and the gun/bullet system. The gun system was one of the most complex pieces of code, but once the base was written I could quickly iterate new weapon designs and tweak values while playtesting.</p>
+
+      <div class="images">
+        <div class="placeholder">Main character blueprint (image)</div>
+        <p>This is the main blueprint for the player's character. Most of this is set up for other functions and to connect gameplay systems to the character.</p>
+        <div class="placeholder">Room blueprint (image)</div>
+        <p>This is a blueprint for one of the rooms. Collision boxes and variables determine when the character is in the room, which triggers doors and enemy activation. Once enemies are defeated (drops based on luck in enemy blueprints), doors unlock and allow progression.</p>
+      </div>
+    </section>
+
+    <p class="back"><a href="/">← Back to Home</a></p>
+  </body>
+</html>
