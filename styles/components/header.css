@@ -2,10 +2,14 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    position: relative;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    position: sticky;
+    top: 0;
     z-index: 9999;
+
+    background-color: var(--clr-dark);
+    border-bottom: 1px solid var(--clr-slate400);
 }
 
 .header__menu{

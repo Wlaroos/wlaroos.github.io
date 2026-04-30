@@ -7,19 +7,14 @@
     <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet"> 
     <title>Mikey Bess Portfolio</title>
   </head>
-  <body>
+  <body id="home">
     <header class = "header container"> 
       <nav>
         <ul class = "header__menu">
-          <li>
-            <a class="header__link" href="#about">About</a>
-          </li>
-          <li>
-            <a class="header__link" href="#work">Work</a>
-          </li>
-          <li>
-            <a class="header__link" href="#contact">Contact</a>
-          </li>
+          <li><a class="header__link" href="#home">Home</a></li>
+          <li><a class="header__link" href="#about">About</a></li>
+          <li><a class="header__link" href="#work">Work</a></li>
+          <li><a class="header__link" href="#contact">Contact</a></li>
           <li class = "header__line"></li>
           <li> 
             <button id="theme-toggle" class="header__sun">
@@ -43,15 +38,10 @@
      <div class="mobile-nav">
       <nav>
         <ul class="mobile-nav__menu">
-          <li>
-            <a class="mobile-nav__link" href="#about">About</a>
-          </li>
-          <li>
-            <a class="mobile-nav__link" href="#work">Work</a>
-          </li>
-          <li>
-            <a class="mobile-nav__link" href="#contact">Contact</a>
-          </li>
+          <li><a class="mobile-nav__link" href="#home">Home</a></li>
+          <li><a class="mobile-nav__link" href="#about">About</a></li>
+          <li><a class="mobile-nav__link" href="#work">Work</a></li>
+          <li><a class="mobile-nav__link" href="#contact">Contact</a></li>
           <li class="mobile-nav__link-line"></li>
           <li>
             <button id="theme-toggle" class="mobile-nav__sun">
@@ -110,22 +100,22 @@
       <hr class = "featured__hr">
       <div class="featured__img-container">
         <div class="featured__img-wrapper">
-          <img class="lazy loading" src="https://fakeimg.pl/250x300" data-src="./CatGif1.gif" alt="Project Image 1" />
+          <img class="lazy loading" src="https://fakeimg.pl/250x300" data-src="./Skelecat/CatGif1.gif" alt="Project Image 1" />
         </div>
         <div class="featured__img-wrapper">
-          <img class="lazy loading" src="https://fakeimg.pl/250x300" data-src="./CatGif2.gif" alt="Project Image 2" />
+          <img class="lazy loading" src="https://fakeimg.pl/250x300" data-src="./Skelecat/CatGif2.gif" alt="Project Image 2" />
         </div>
         <div class="featured__img-wrapper">
-          <img class="lazy loading" src="https://fakeimg.pl/250x300" data-src="./CatGif3.gif" alt="Project Image 3" />
+          <img class="lazy loading" src="https://fakeimg.pl/250x300" data-src="./Skelecat/CatGif3.gif" alt="Project Image 3" />
         </div>
         <div class="featured__img-wrapper">
-          <img class="lazy loading" src="https://fakeimg.pl/250x300" data-src="./CatGif1.gif" alt="Project Image 4" />
+          <img class="lazy loading" src="https://fakeimg.pl/250x300" data-src="./Skelecat/CatGif1.gif" alt="Project Image 4" />
         </div>
         <div class="featured__img-wrapper">
-          <img class="lazy loading" src="https://fakeimg.pl/250x300" data-src="./CatGif2.gif" alt="Project Image 5" />
+          <img class="lazy loading" src="https://fakeimg.pl/250x300" data-src="./Skelecat/CatGif2.gif" alt="Project Image 5" />
         </div>
         <div class="featured__img-wrapper">
-          <img class="lazy loading" src="https://fakeimg.pl/250x300" data-src="./CatGif3.gif" alt="Project Image 6" />
+          <img class="lazy loading" src="https://fakeimg.pl/250x300" data-src="./Skelecat/CatGif3.gif" alt="Project Image 6" />
         </div>
       </div>
     </section>
@@ -153,7 +143,7 @@
         </p>
         <h3 class="work__project-title">Project 1</h3>
           <div class="work__img-wrapper work__image1">
-            <img class="lazy loading" src="https://fakeimg.pl/1080x1080" data-src="./Screenshot (196).png" alt="Project Image 1"/>
+            <img class="lazy loading" src="https://fakeimg.pl/1080x1080" data-src="./Skelecat/Screenshot (196).png" alt="Project Image 1"/>
           </div>
           <div class="work__project work__content1">
             <h3 class="work__subtitle">Project 1</h3>
@@ -165,7 +155,7 @@
         </p>
         <h3 class="work__project-title">Project 2</h3>
         <div class="work__img-wrapper work__image2">
-          <img class="lazy loading" src="https://fakeimg.pl/1080x1080" data-src="./MainMenu.png" alt="Project Image 2"/>
+          <img class="lazy loading" src="https://fakeimg.pl/1080x1080" data-src="./DeathMark/MainMenu.png" alt="Project Image 2"/>
         </div>
         <div class="work__project work__content2">
           <h3 class="work__subtitle">Project 2</h3>
@@ -177,8 +167,7 @@
       </p>
       <h3 class="work__project-title">Project 3</h3>
       <div class="work__img-wrapper work__image3">
-        <!-- <img class="lazy loading" src="https://fakeimg.pl/1280x720" data-src="/Map.png" alt="Project Image 3" /> -->
-        <video class ="lazy" src="https://fakeimg.pl/1920x1080" data-src="./Tank_Gameplay.mp4" autoplay loop muted></video>
+        <video class ="lazy" src="https://fakeimg.pl/1920x1080" data-src="./TankGame/Tank_Gameplay.mp4" autoplay loop muted></video>
       </div>
       <div class="work__project work__content3">
         <h3 class="work__subtitle">Project 3</h3>
@@ -227,8 +216,13 @@
         >Email</a>
       </section>
     </main>
-    <footer class="footer container section"> </footer>
+
+    <footer class="footer container section">
+    <div class="footer__content">
     <h3 class="footer__title">-Mikey Bess-</h3>
+    </div>
+    </footer>
+
     <script type="module" src="./src/main.js"></script>
   </body>
-  </html>
+</html>
